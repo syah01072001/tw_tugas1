@@ -1,0 +1,87 @@
+.container{
+    max-width: 1080px;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+}
+
+/* header */
+.header{
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px;
+	
+}
+
+
+
+/* Main dan gambar */
+    .left{
+        width: 250px;
+        border: 1px solid #d6d3d3;
+        background: #d1c0f2;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+    }
+
+    .middle{
+        width: 500px;
+        border: 1px solid #d6d3d3;
+        padding: 10px;
+        margin: 10px;
+        float: left;
+    }
+        .middle img{
+            max-width: 100%;
+            height: auto;
+        }
+
+/* footer */
+.footer{
+    clear: both;
+    border: 2px solid #2d2d2d;
+    color: #fff;
+    background-color: #2d2d2d;
+    padding: 10px;
+    margin: 10px;
+}
+   
+/*responsive max 1080*/
+@media screen and (max-width: 1080px) {
+    
+    .container {
+        width: 100%;
+    }
+    .left {
+        width: 25%;
+        background-color: #bcec9d;
+    }
+    .middle {
+        width: 68%;
+        float: right;
+    }
+    
+    
+    
+}
+
+/*responsive max 720*/
+@media screen and (max-width: 720px) {
+    
+    .header, 
+    .footer{
+        text-align: center;
+    }
+    .left {
+        width: auto;
+        float: none;
+    }
+    
+    .middle {
+        width: auto;
+        float: none;
+    }
+    
+
+}
